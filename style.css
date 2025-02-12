@@ -1,0 +1,7 @@
+.grip-container{
+display: grid;
+height: 99vh;
+grid-template-columns: repeat(3, 1fr);
+
+
+} 
