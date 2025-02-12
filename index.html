@@ -1,19 +1,112 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Santos & Santos - Camisas Católicas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    
   </head>
+  
   <body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/jas/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
-  </body>aa
-<script src="script.js"></script>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Santos & Santos</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#produtos">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-  <div></div>grid-conteiner></grid-conteiner>
+    <div id="carouselExampleCaptions" class="carousel slide mt-4">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/capa2.webp" class="d-block w-50 mx-auto" alt="Camisa São Bento">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Camisas Católicas Exclusivas</h5>
+            <p>Estilo e fé em um só lugar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="sobre" class="text-center p-5 bg-light">
+      <div class="container">
+        <h2>Sobre Nós</h2>
+        <p>A Santos & Santos é uma marca de camisas católicas que une fé e estilo, trazendo mensagens de evangelização em cada peça.</p>
+      </div>
+    </section>
+
+    <section id="produtos" class="text-center p-5">
+      <div class="container">
+        <h2>Nossos Produtos</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/7fc836a587d7eb066c15ce829e92b011.webp" class="card-img-top" alt="Camisa Carlo Acutis">
+              <div class="card-body">
+                <h5 class="card-title">Camisa Carlo Acutis</h5>
+                <p class="card-text">Inspirada no Beato Carlo Acutis, ideal para jovens evangelizadores.</p>
+                <a href="#" class="btn btn-success">Comprar Agora</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/9bab5c1416266999bade3d9e38acd0e9.webp" class="card-img-top" alt="Camisa São Miguel">
+              <div class="card-body">
+                <h5 class="card-title">Camisa São Miguel</h5>
+                <p class="card-text">São Miguel Arcanjo: Proteção contra o mal em grande estilo.</p>
+                <a href="#" class="btn btn-success">Comprar Agora</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/CARLO5.webp" class="card-img-top" alt="Camisa Terço Mariano">
+              <div class="card-body">
+                <h5 class="card-title">Camisa Terço Mariano</h5>
+                <p class="card-text">Devoção a Nossa Senhora com muito estilo e fé.</p>
+                <a href="#" class="btn btn-success">Comprar Agora</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="card">
+              <img src="img/cc736cf2f24ca2bdb28451f5f975865d.webp" class="card-img-top" alt="Camisa Cruz de Cristo">
+              <div class="card-body">
+                <h5 class="card-title">Camisa Cruz de Cristo</h5>
+                <p class="card-text">Símbolo de fé e salvação em um design moderno.</p>
+                <a href="#" class="btn btn-success">Comprar Agora</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center p-3 bg-dark text-light">
+      <p>&copy; 2025 Santos & Santos - Todos os direitos reservados.</p>
+    <p>Este é um site fictício criado para fins de estudo e prática de desenvolvimento web.</p>
+<p>Criado por Vinícius Fernando dos Santos em 2020.</p>
+<p>Entre em contato: <a href='https://www.instagram.com/st_vini8' target='_blank'>Instagram: @st_vini8</a> | WhatsApp: (42) 99134-7998</p>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
 </html>

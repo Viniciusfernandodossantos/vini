@@ -5,3 +5,5 @@ grid-template-columns: repeat(3, 1fr);
 
 
 } 
+git config --global user.name "MEU NOME" 
+git config --global user.email "meuemail@example.com"
